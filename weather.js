@@ -1,4 +1,5 @@
 // 天気API実験の動きを担当するファイル。APIキーは使いません。
+document.head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" href="weather.css">');
 const citySelect = document.querySelector('#city'); const fetchButton = document.querySelector('#fetch-weather'); const statusText = document.querySelector('#process-status'); const jsonOutput = document.querySelector('#json-output'); const steps = ['step-user', 'step-js', 'step-api', 'step-display'];
 const weatherNames = {0:'快晴',1:'主に晴れ',2:'一部くもり',3:'くもり',45:'霧',51:'霧雨',61:'雨',63:'雨',65:'強い雨',71:'雪',80:'にわか雨',95:'雷雨'};
 function showStep(stepIndex, message) { steps.forEach((id,index) => document.querySelector(`#${id}`).classList.toggle('step-active', index === stepIndex)); statusText.textContent = message; }
