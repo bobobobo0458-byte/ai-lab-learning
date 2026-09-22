@@ -9,7 +9,7 @@ AIやWebの仕組みを、小さく作って確かめるための実験サイト
 ## 2. ファイルの担当
 
 - `index.html`: ホーム画面の文章、ボタン、ロードマップ。
-- `lab.html`: Lab Notes画面。HTMLだけで別ページへ移動できる例。
+- `lab.html`: Webの基礎画面。HTMLだけで別ページへ移動できる例。
 - `weather.html`: Level 3の天気API実験画面。問い合わせからJSON表示までを見せるページ。
 - `weather.js`: 天気APIへ問い合わせ、JSONから値を取り出して画面に表示する処理。
 - `weather.css`: 天気API実験ページ専用の見た目。
@@ -19,7 +19,7 @@ AIやWebの仕組みを、小さく作って確かめるための実験サイト
 
 ## 3. 文章を変更するなら
 
-`index.html` または `lab.html` の文章を変更します。たとえばホームの大見出しは `index.html` の `<h1>`、Lab Notesの説明は `lab.html` の `<p>` です。
+`index.html` または `lab.html` の文章を変更します。たとえばホームの大見出しは `index.html` の `<h1>`、Webの基礎ページの説明は `lab.html` の `<p>` です。
 
 ## 4. デザインを変更するなら
 

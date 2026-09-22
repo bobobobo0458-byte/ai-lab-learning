@@ -1,6 +1,7 @@
 // 天気API実験の動きを担当するファイル。APIキーは使いません。
 document.head.insertAdjacentHTML('beforeend', '<link rel="stylesheet" href="weather.css">');
 document.querySelector('.page-heading h1').insertAdjacentHTML('beforebegin', '<a href="index.html#roadmap" style="display:inline-block;border:1px solid #2a2e37;background:#151920;color:#f2f3ee;border-radius:999px;padding:8px 13px;text-decoration:none;font-size:12px;margin-bottom:14px">← ロードマップ</a>');
+const foundationLink = document.querySelector('a[href="lab.html"]'); if (foundationLink) foundationLink.textContent = 'Webの基礎';
 const citySelect = document.querySelector('#city'); const fetchButton = document.querySelector('#fetch-weather'); const statusText = document.querySelector('#process-status'); const jsonOutput = document.querySelector('#json-output'); const steps = ['step-user', 'step-js', 'step-api', 'step-display'];
 const fukuokaOption = document.createElement('option'); fukuokaOption.value = '33.5904,130.4017,福岡'; fukuokaOption.textContent = '福岡'; citySelect.appendChild(fukuokaOption);
 const weatherNames = {0:'快晴',1:'主に晴れ',2:'一部くもり',3:'くもり',45:'霧',51:'霧雨',61:'雨',63:'雨',65:'強い雨',71:'雪',80:'にわか雨',95:'雷雨'};
