@@ -10,7 +10,7 @@ AIやWebの仕組みを、小さく作って確かめるための実験サイト
 
 - `index.html`: ホーム画面の文章、ボタン、ロードマップ。
 - `lab.html`: Webの基礎画面。HTMLだけで別ページへ移動できる例。
-- `weather.html`: Level 3の天気API実験画面。問い合わせからJSON表示までを見せるページ。
+- `weather.html`: Level 07〜10の天気API実験画面。外部APIへの問い合わせ、JSON、値の抽出を見せるページ。
 - `weather.js`: 天気APIへ問い合わせ、JSONから値を取り出して画面に表示する処理。
 - `weather.css`: 天気API実験ページ専用の見た目。
 - `styles.css`: サイト全体の見た目。色、余白、文字、レスポンシブ対応。
@@ -59,4 +59,4 @@ Level 1〜10（HTML、CSS、JavaScript、Git、GitHub、Vercel、外部API、fet
 
 ## 今回まだ入れていないもの
 
-AI API、データベース、認証、AIエージェントはまだありません。外部APIはLevel 3として天気APIだけを追加しました。必要になった段階で、仕組みを一つずつ追加します。
+AI API、データベース、認証、AIエージェントはまだありません。外部APIはLevel 07〜10として天気APIだけを追加しました。必要になった段階で、仕組みを一つずつ追加します。
